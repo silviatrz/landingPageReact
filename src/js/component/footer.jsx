@@ -2,13 +2,13 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<div className="container-fluid bg-dark sticky-bottom mt-5">
-			<br />
-			<p className="text-white text-center mt-1">
-				Copyright Ⓒ Your Website 2021
-			</p>
-			<br />
-		</div>
+		<footer className="footer bg-dark  py-3  text-center d-flex align-items-center">
+			<div className="container-md">
+				<span className="text-muted">
+					Copyright Ⓒ Your Website 2021
+				</span>
+			</div>
+		</footer>
 	);
 };
 

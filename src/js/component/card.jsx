@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 const Card = props => {
 	return (
 		<div
-			className="card mx-3 text-center rounded   "
-			style={{ width: "325px", height: "450px" }}>
+			className="card-md mx-1 text-center rounded"
+			style={{ width: "310px", height: "450px" }}>
 			<img
 				src={props.img}
 				className="card-img-top bg-secondary"
